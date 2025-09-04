@@ -15,19 +15,9 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "maxLength": 80
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "cover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images", "files", "videos"]
     },
     "author": {
       "type": "relation",
@@ -43,7 +33,30 @@
     },
     "blocks": {
       "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+      "components": [
+        "shared.media",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.slider"
+      ]
+    },
+    "isPremium": {
+      "type": "boolean"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "isPaid": {
+      "type": "boolean"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "paid_content": {
+      "type": "blocks"
+    },
+    "content": {
+      "type": "blocks"
     }
   }
 }
