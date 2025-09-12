@@ -46,9 +46,6 @@
     "excerpt": {
       "type": "text"
     },
-    "isPaid": {
-      "type": "boolean"
-    },
     "bgColor": {
       "type": "string"
     },
