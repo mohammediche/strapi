@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cas_concrets",
+  "info": {
+    "singularName": "cas-concret",
+    "pluralName": "cas-concrets",
+    "displayName": "Cas-concret"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "serviceId": {
+      "type": "uid"
+    }
+  }
+}
