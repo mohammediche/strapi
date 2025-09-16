@@ -46,9 +46,6 @@
     "excerpt": {
       "type": "text"
     },
-    "bgColor": {
-      "type": "string"
-    },
     "paid_content": {
       "type": "blocks"
     },
