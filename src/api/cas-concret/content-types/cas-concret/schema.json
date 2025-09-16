@@ -23,8 +23,8 @@
     "content": {
       "type": "blocks"
     },
-    "serviceId": {
-      "type": "uid"
+    "serviceSlug": {
+      "type": "string"
     }
   }
 }

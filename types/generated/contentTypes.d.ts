@@ -496,7 +496,7 @@ export interface ApiCasConcretCasConcret extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    serviceId: Schema.Attribute.UID;
+    serviceSlug: Schema.Attribute.String;
     slug: Schema.Attribute.UID;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
